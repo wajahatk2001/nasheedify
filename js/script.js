@@ -19,7 +19,7 @@ function secondsToMinutesSeconds(seconds) {
 }
 
 async function getnasheeds() {
-    let response = await fetch("https://github.com/wajahatk2001/nasheedify/tree/cc94aae1cf6d11b82f2ae4d358da0ab928627774/nasheeds");
+    let response = await fetch("github.com/wajahatk2001/nasheedify/tree/cc94aae1cf6d11b82f2ae4d358da0ab928627774/nasheeds");
     let data = await response.text();
     let div = document.createElement("div");
     div.innerHTML = data;
@@ -28,7 +28,7 @@ async function getnasheeds() {
     for (let index = 0; index < as.length; index++) {
         const element = as[index];
         if (element.href.endsWith(".mp3")) {
-            nasheeds.push(element.href.split("https://github.com/wajahatk2001/nasheedify/tree/cc94aae1cf6d11b82f2ae4d358da0ab928627774/nasheeds")[1]);
+            nasheeds.push(element.href.split("github.com/wajahatk2001/nasheedify/tree/cc94aae1cf6d11b82f2ae4d358da0ab928627774/nasheeds")[1]);
         }
     }
     return nasheeds;
