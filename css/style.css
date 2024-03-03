@@ -364,7 +364,7 @@ body {
 
 @media (max-width: 1200px) {
     .header {
-        width: 115%;
+        width: 118%;
         position: fixed;
         margin-bottom: 106px;
         z-index: 2;
@@ -386,15 +386,19 @@ body {
         background: #121212;
     }
 
+    .logo img {
+        padding-top: 20px;
+    }
+
     .left {
         background-color: black;
-        position: absolute;
+        position: fixed;
         left: -120%;
         transition: all 0.3s;
         z-index: 5;
-        width: 377px;
-        padding-bottom: 22px;
-        bottom: -588px;
+        width: 337px;
+        padding-bottom: 14px;
+        bottom: -18px;
     }
 
     .left .cross {
@@ -424,7 +428,7 @@ body {
     }
 
     .nasheedslist {
-        max-height: 470px;
+        max-height: 390px;
     }
 
     .right {
@@ -454,6 +458,9 @@ body {
         gap: 16px;
         right: -7%;
         position: relative;
+    }
+    .loginbtn{
+        padding: 9px 12px
     }
 
     .seekbar {
