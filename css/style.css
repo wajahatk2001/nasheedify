@@ -1,0 +1,508 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.logo img {
+    margin-left: -4px;
+    margin-bottom: 6px;
+    height: 69px;
+    width: 147px;
+}
+
+.left {
+    width: 25vw;
+    padding: 10px;
+}
+
+.home {
+    margin-right: 11px;
+    margin-top: 11px;
+    padding: 10px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.home ul li {
+    width: 14px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding-top: 14px;
+}
+
+.heading {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    padding-top: 1px;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.heading img {
+    width: 27px;
+}
+
+.footer {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 10px;
+    gap: 10px;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+
+.header {
+    justify-content: space-between;
+    background-color: rgb(39, 39, 39);
+    border-radius: 9px;
+}
+
+.header>* {
+    margin: 5px;
+    padding: 20px;
+}
+
+.nasheedplaylist {
+    padding: 16px;
+}
+
+.cardcont {
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 80vh;
+    padding-top: 12px;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    max-height: 80vh;
+}
+
+.crd {
+    width: 160px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+}
+
+.crd:hover {
+    transition: 0.4s ease;
+    background-color: #363636;
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+.nasheedplaylist .crd {
+    width: 160px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.crd img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.crd p {
+    font-weight: 500;
+    color: grey;
+    font-size: 12px;
+}
+
+.header svg {
+    gap: 10px;
+    margin-right: 19px;
+    margin-top: 10px;
+}
+
+.footer a {
+    color: grey;
+    text-decoration: none;
+    padding-top: 34px;
+    position: relative;
+    text-align: center;
+}
+
+.library {
+    min-height: 115vh;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 17.5px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-right: 12px;
+}
+
+.right {
+    width: 75vw;
+    margin-left: -12px;
+    margin-top: 20px;
+    margin-bottom: 11px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.signupbtn {
+    background-color: rgb(39, 39, 39);
+    color: gray;
+    font-weight: 600;
+    padding: 12px 17px;
+    border: none;
+    border-radius: 100px;
+    font-size: 19px;
+}
+
+.signupbtn:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.loginbtn {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 100px;
+    font-size: 16px;
+}
+
+.loginbtn:hover {
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+.playbar {
+    min-height: 40px;
+    position: absolute;
+    bottom: 0;
+    font-weight: 600;
+    background-color: #424242;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    left: 0px;
+    border-radius: 6px;
+}
+
+.playbar img {
+    height: 25px;
+    position: relative;
+    bottom: -5px;
+    cursor: pointer;
+}
+
+.playbar img:hover {
+    transition: 0.3s ease;
+    transform: scale(1.2);
+}
+
+.nasheedslist {
+    height: 544px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: -3px;
+    z-index: 1;
+    margin-bottom: 44px 0;
+}
+
+.nasheedslist::-webkit-scrollbar {
+    width: 6px;
+    right: 100px;
+}
+
+.nasheedslist ul {
+    margin-left: -1px;
+    margin-right: 5px;
+    padding-top: 24px;
+    position: relative;
+    left: 1px;
+    padding: 8px;
+}
+
+.nasheedslist ul li {
+    list-style: none;
+    list-style-type: decimal;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    padding: 12px 0px;
+    border-radius: 8px;
+    margin-bottom: 9px;
+    justify-content: center;
+    background-color: #282828;
+}
+
+.nasheedslist ul li:hover {
+    transition: 0.4s ease;
+    background-color: rgb(0, 0, 71);
+    transform: scale(1.07);
+}
+
+.info {
+    width: 100px;
+    border-left: 22;
+}
+
+.playnow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playnow span {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 31px;
+    width: 64px;
+    left: 20px;
+    position: relative;
+    color: #daa5205c;
+}
+
+.playnow span:hover {
+    transition: 0.4s ease;
+    transform: scale(1.1);
+    color: goldenrod;
+}
+
+.hamburger,
+.cross {
+    display: none;
+}
+
+.hamcont {
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    display: flex;
+}
+
+.seekbar {
+    height: 1px;
+    width: 95%;
+    border: 2px solid red;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.circle {
+    border-radius: 50px;
+    background-color: red;
+    border: 2px solid black;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    bottom: 7.09px;
+    transition: left 0.5s;
+    left: 0%;
+    cursor: pointer;
+}
+
+.circle:hover {
+    transform: scale(1.2);
+    background-color: maroon;
+}
+
+.playinfo {
+    font-weight: 600;
+    font-size: 15px;
+    position: absolute;
+    left: 16px;
+    color: #929191;
+    width: 500px;
+}
+
+.playtime {
+    font-size: 15px;
+    font-weight: 600;
+    left: 347px;
+    position: relative;
+    margin-bottom: 16px;
+    color: #929191;
+}
+
+.abovebar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.nasheedsbtns {
+    margin-bottom: 9px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    right: -27%;
+    position: relative;
+}
+
+@media (max-width: 1200px) {
+    .header {
+        width: 115%;
+        position: fixed;
+        margin-bottom: 106px;
+        z-index: 2;
+        border-radius: 0;
+    }
+
+    .nasheedplaylist h1 {
+        padding-top: 136px;
+        padding-bottom: 28px;
+    }
+
+    .button {
+        margin: 0;
+        position: relative;
+        right: 58px;
+    }
+
+    .container {
+        background: #121212;
+    }
+
+    .left {
+        background-color: black;
+        position: absolute;
+        left: -120%;
+        transition: all 0.3s;
+        z-index: 5;
+        width: 377px;
+        padding-bottom: 22px;
+        bottom: -588px;
+    }
+
+    .left .cross {
+        display: block;
+        top: 47px;
+        position: absolute;
+        right: 32px;
+        width: 32px;
+    }
+
+    .cardcont {
+        justify-content: center;
+        gap: 18px;
+        margin: 0;
+    }
+
+    .cardcont h4 {
+        font-size: 22px;
+    }
+
+    .cardcont p {
+        font-size: 21px;
+    }
+
+    .nasheedplaylist .crd {
+        width: 270px;
+    }
+
+    .nasheedslist {
+        max-height: 470px;
+    }
+
+    .right {
+        width: 100vw;
+        margin-right: -100%;
+        margin-left: -1%;
+        margin: 0;
+    }
+
+    .playbar {
+        width: 94vw;
+        position: fixed;
+        padding-right: 14px;
+        margin-left: 7px;
+        bottom: -2px;
+    }
+
+    .abovebar {
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    .nasheedsbtns {
+        margin-bottom: 9px;
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        right: -7%;
+        position: relative;
+    }
+
+    .seekbar {
+        top: 62px;
+        right: 7px;
+    }
+
+    .playinfo {
+        font-size: 77px;
+        left: 2%;
+        display: flex;
+        justify-items: center;
+        font-size: 13px;
+        top: 1px;
+    }
+
+    .playtime {
+        left: 139%;
+        font-size: 14px;
+        font-weight: 600;
+        top: -75px;
+        margin: 0;
+    }
+
+    .hamburger {
+        display: block;
+        height: 40px;
+        bottom: -4px;
+        position: relative;
+    }
+
+    .hamcont {
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        display: flex;
+    }
+
+    .library {
+        min-height: 70vh;
+    }
+
+    .footer a {
+        display: block;
+        color: grey;
+        text-decoration: none;
+        padding-top: 34px;
+        position: relative;
+        text-align: center;
+        padding-bottom: 26px;
+    }
+}

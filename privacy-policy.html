@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Nasheeds Graffiti</title>
+    <link rel="shortcut icon" href="ng.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+        /* Scrollbar */
+        /* Width */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: rgba(128, 128, 128, 0.475);
+            /* Dark background color */
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: crimson;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(220, 20, 60, 0.525);
+            /* Darker color on hover */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Jost", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 450;
+            font-style: normal;
+            font-size: 10px;
+        }
+
+        body {
+            background-color: pink;
+        }
+
+        header {
+            background-color: #121212;
+            color: white;
+            padding-bottom: 7px;
+        }
+
+        header img {
+            margin: 14px;
+            margin-bottom: 6px;
+            height: 69px;
+            width: 147px
+        }
+
+        nav a {
+            text-decoration: none;
+            gap: 50px;
+            list-style: none;
+            text-align: center;
+        }
+
+        .ahrefs-container {
+            list-style: none;
+            display: flex;
+            justify-content: left;
+            gap: 48px;
+            margin-left: 90px;
+
+        }
+
+        .ahrefs-container a {
+            text-decoration: none;
+            font-size: 19px;
+            color: black;
+            font-weight: 700;
+            margin-top: 20px;
+        }
+
+        .ahrefs-container a:hover {
+            color: #199446;
+            transition: 0.3s ease;
+        }
+
+        .all-h1 h1 {
+            font-size: 4.2rem;
+            font-weight: 600;
+            margin-left: 40px;
+            margin-top: 60px;
+            color: #222326;
+        }
+
+        .all-h1 h1:hover {
+            text-decoration: underline 4px solid;
+            cursor: pointer;
+        }
+
+        .all-h1 p {
+            margin-left: 42px;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 18px;
+            margin-top: 19px;
+        }
+
+        .paras p {
+            margin-left: 42px;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 17px;
+            margin-top: 19px;
+            color: green;
+        }
+
+        .paras p:hover {
+            color: rgb(59, 188, 59);
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .all-h2 h2 {
+            font-size: 3.2rem;
+            font-weight: 600;
+            margin-left: 40px;
+            margin-top: 60px;
+            color: #222326;
+        }
+
+        .all-h2 p {
+            margin-right: 61px;
+            margin-left: 42px;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 17px;
+            margin-top: 19px;
+        }
+
+        .all-h2 li {
+            margin-left: 42px;
+            justify-content: flex-start;
+            font-size: 17px;
+            margin-top: 19px;
+        }
+
+
+        .left {
+            border: 2px solid red;
+            width: 35vh;
+            /* display: flex; */
+        }
+
+        .right {
+            border: 2px solid red;
+            width: 75vh;
+            /* display: flex; */
+        }
+
+        .next-to-right {
+            border: 2px solid blue;
+            width: 20vh;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin: 50px;
+            /* 3 columns */
+            /* grid-gap: 10px; */
+            /* Adjust the gap between grid items */
+        }
+
+        .grid-item {
+            padding: 20px;
+            background-color: #f0f0f0;
+            /* Background color of grid items */
+            border: 1px solid rgba(128, 128, 128, 0.1);
+            /* Border for grid items */
+            text-align: center;
+            font-size: 19px;
+            font-weight: 400;
+        }
+
+        .grid-item h3 {
+            font-size: 19px;
+            font-weight: 400;
+        }
+
+
+
+        @media only screen and (max-width: 600px) {
+
+            /* Adjustments for smaller screens */
+            header img {
+                margin: 8px;
+                margin-bottom: 4px;
+                height: auto;
+                width: 80px;
+            }
+
+            .ahrefs-container p {
+                text-align: center;
+            }
+
+            .ahrefs-container {
+                margin-left: 0;
+                display: flex;
+                justify-content: center;
+                /* Center horizontally */
+                align-items: center;
+                /* Center vertically */
+                height: 100%;
+                /* Use the full height of the parent */
+                gap: 0px;
+                font-weight: 400;
+                display: flex;
+                flex-direction: column;
+                /* Stack items vertically */
+                justify-content: center;
+                /* Center horizontally */
+                align-items: center;
+                /* Center vertically */
+                height: 100%
+                    /* Use the full height of the parent */
+            }
+
+            .all-h1 h1 {
+                font-size: 2rem;
+                margin-left: 10px;
+                margin-top: 20px;
+            }
+
+            .all-h1 p {
+                margin-left: 12px;
+                font-size: 12px;
+                margin-top: 10px;
+            }
+
+            .paras p,
+            .all-h2 h2,
+            .all-h2 p {
+                margin-left: 12px;
+                margin-right: 12px;
+                font-size: 12px;
+            }
+
+            .all-h2 h2 {
+                font-size: 1.6rem;
+                margin-left: 10px;
+                margin-top: 20px;
+            }
+
+            .grid-container {
+                /* grid-template-columns: repeat(1, 1fr); */
+                margin: 20px;
+            }
+
+            .grid-item {
+                padding: 14px;
+                font-size: 12px;
+            }
+
+            .grid-item h3 {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="images/ng-logo.png" alt="logo">
+    </header>
+    <div class="ahrefs-container">
+        <a style="color: black; font-weight: 400;" href="">Legal</a>
+        <a href="">Privacy Policy</a>
+        <a href="t&c.html">Terms and Conditions of Use</a>
+        <a href="copyright.html">Copyright Policy</a>
+        <a href="guidelines.html">User Guidelines</a>
+        <a style="font-weight: 700; color: crimson;background-color: #121212; padding:0 12px; border-radius: 4px;"
+            href="index.html">BACK</a>
+
+
+    </div>
+    <div class="all-h1">
+        <h1>Nasheeds Graffiti Privacy Policy</h1>
+        <p>Effective as of 23 december 2023</p>
+    </div>
+
+    <div class="paras">
+        <p>1. About this Policy</p>
+        <p>2. Your personal data rights and controls</p>
+        <p>3. Personal data we collect about you</p>
+        <p>4. Our purpose for using your personal data</p>
+        <p>5. Sharing your personal data</p>
+        <p>6. Data retention</p>
+    </div>
+    <div class="all-h2">
+        <h2>1. About this Policy</h2>
+        <p>This Privacy Policy describes how we process your personal data at Nasheed's Graffiti AB. From now on, we'll
+            call it the
+            'Policy'. <br>
+            It applies to your use of: <br>
+            <li>all Nasheed's Graffiti streaming services as a user. For example this includes:</li>
+            <li>your use of Nasheed's Graffiti on any device <br></li>
+            <li>the personalisation of your user experience. Watch our personalisation explainer video to learn more
+                about this <br></li>
+            <li>the infrastructure required to provide our services <br></li>
+            <li>connection of your Nasheed's Graffiti account with another application <br></li>
+            <li>both our free or paid streaming options (each a 'Service Option') <br></li>
+        <P style="margin-right: 61px;">Key information about your personal data is right here in this Policy. However,
+            you might want to take a
+            look at our other privacy resources and controls:
+
+            Privacy Center: A user-friendly hub with summaries of key topics and helpful videos. It includes the 'Your
+            Privacy Controls' video which shows you how to exercise your user rights and make choices about the way we
+            process your data. See Section 2 'Your personal data rights and controls' for more on user rights.
+            Privacy Settings: Control the processing of certain personal data, including tailored advertising.
+            Notification Settings: Set which marketing communications you get from Nasheeds Graffiti.
+            Settings (found in the Desktop and Mobile versions of Nasheeds Graffiti Control certain aspects of the
+            Nasheeds Graffiti
+            Service such as 'Social' or 'Explicit Content'. On the 'Social' setting, you can:
+            start a Private session
+            choose whether to share what you listen to on Nasheeds Graffiti with your followers
+            choose wheer to show your recently played artists on your public profile</P>
+        </p>
+    </div>
+    <div class="all-h2">
+        <h2>2. Your personal data rights and controls</h2>
+        <p>Many privacy laws give rights to individuals over their personal data. These laws include the General Data
+            Protection Regulation, or 'GDPR'. <br>
+
+            Some rights only apply when Nasheeds Graffiti uses a certain 'legal basis' to process your data. We explain
+            each legal
+            basis, and when Nasheeds Graffiti uses each one, in Section 4 'Our purpose for using your personal data'.
+            <br>
+            The table below explains: <br>
+        </p>
+        <li>your rights</li>
+        <li>circumstances when they apply (such as the legal basis required)</li>
+        <li>how to use them</li>
+    </div>
+    <div class="grid-container">
+
+        <div style="background-color: #1db954; " class="grid-item">
+            <h3 style="font-size: 20px;font-weight: 700">Its your right to...</h3>
+        </div>
+        <div style="background-color: #1db954;" class="grid-item"></div>
+        <div style="background-color: #1db954; " class="grid-item">
+            <h3 style="font-size: 20px;font-weight: 700">How?</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-weight: 600;">Be informed</h3>
+        </div>
+        <div class="grid-item">
+            <h3>Be informed of the personal data we process about you and how
+                we process it.</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 400">We inform you:</h3>
+            <h3>purpose categories of personal data which we use for each purpose. See more about these categories in
+                Section 3 </h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-weight: 600;">Access</h3>
+        </div>
+        <div class="grid-item">
+            <h3>Request access to the personal data we process about you.</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 400">To request a copy of your personal data from Nasheeds Graffiti,
+                either:
+                use the “Download your data” tool in your account Privacy Settings, or
+                contact us</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-weight: 600;">Rectification</h3>
+        </div>
+        <div class="grid-item">
+            <h3>Request that we amend or update your personal data where it’s
+                inaccurate or incomplete.</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 400">You can edit your User Data under Edit profile in your
+                account or by contacting us.</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-weight: 600;">Withdrawal of consent</h3>
+        </div>
+        <div class="grid-item">
+            <h3>Withdraw your consent to us collecting or using your personal
+                data.</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 400">To withdraw your consent, you can:
+                adjust the relevant control on Nasheeds Graffiti contact us</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-weight: 600;">Right to lodge a complaint</h3>
+        </div>
+        <div class="grid-item">
+            <h3>Contact the Swedish Authority for Privacy Protection or your
+                local data protection authority about any questions or concerns.</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 400">You can find the Swedish Authority’s details here. You can also
+                go to the website of your local data protection authority.</h3>
+        </div>
+    </div>
+
+
+    <div class="all-h2">
+        <h2>3. Personal data we collect about you</h2>
+        <h3 style="font-size: 18px; margin-left: 44px;font-weight: 600; margin-left: 38px">Tailored advertising controls
+        </h3>
+        <p>What is tailored advertising?
+            <li>This is when we use information about you to tailor ads to be more relevant to you. This is also known
+                as interest based advertising.</li>
+            <li>An example of tailored advertising is when an advertising partner has information suggesting you like
+                cars. This could enable us to show you ads about cars.</li>
+
+
+        <p> you are 'opted out' of Tailored Ads in your Privacy Settings, you may still get advertising. This can
+            include on our free Service Option, as well as our paid Service Option, as applicable (for example,
+            advertising in podcasts). This type of advertising is based on your registration information and what you
+            are currently listening to on our services. For example, if you are listening to a cooking podcast, you may
+            hear an ad for a food processor.
+        </p>
+    </div>
+
+
+    <div class="all-h2">
+        <h2>
+            4. Our purpose for using your personal data</h2>
+        <p>The table below sets out:
+
+            our purpose for processing your personal data
+            our legal justifications (each called a 'legal basis') under data protection law, for each purpose
+            categories of personal data which we use for each purpose. See more about these categories in Section 3
+            'Personal data we collect about you'
+            You can also watch our video about Personal Data at Nasheeds Graffiti.
+
+            Here is a general explanation of each 'legal basis' to help you understand the table:
+
+            <li>Performance of a Contract: When it's necessary for Nasheeds Graffiti (or a third party) to process your
+                personal data to:
+                comply with obligations under a contract with you. This includes Nasheeds Graffiti's obligations under
+                the
+                Terms of Use to provide the Nasheeds Graffiti Service to you, or
+                verify information before a new contract with you begins.</li>
+            <li>Legitimate Interest: When Nasheeds Graffiti or a third party has an interest in using your personal data
+                in a certain way, which is necessary and justified considering any possible risks to you and other
+                Nasheeds Graffiti users. For example, using your Usage Data to improve the Nasheeds Graffiti Service for
+                all users. Contact us if you want to understand a specific justification.</li>
+            <li>Consent: When Nasheeds Graffiti asks you to actively indicate your agreement to Nasheeds Graffiti's use
+                of your personal data for a certain purpose.</li>
+        <p>Compliance with Legal Obligations: When Nasheeds Graffiti must process your personal data to comply with a
+            law.
+        </p>
+        <div class="grid-container">
+
+            <div style="background-color: #1db954; " class="grid-item">
+                <h3 style="font-size: 20px;font-weight: 700">
+                    Purpose for processing your data</h3>
+            </div>
+            <div style="background-color: #1db954;" class="grid-item">
+                <h3 style="font-size: 20px;font-weight: 700">Legal basis that permits the purpose</h3>
+            </div>
+            <div style="background-color: #1db954; " class="grid-item">
+                <h3 style="font-size: 20px;font-weight: 700">Categories of personal data used for the purpose</h3>
+            </div>
+            <div class="grid-item">
+                <h3 style="font-size: 19px;font-weight: 400">To provide the Nasheeds Graffiti Service in accordance with
+                    our
+                    contract with you.
+                    For example, when we use your personal data to:
+                    set up an account for you
+                    personalise your account, or
+                    provide the Nasheeds Graffiti app when you download it onto your device</h3>
+            </div>
+            <div class="grid-item">
+                <h3 style="font-size: 19px;font-weight: 400">Performance of a Contract</h3>
+            </div>
+            <div class="grid-item">
+                <h3 style="font-size: 19px;font-weight: 400">User Data
+                    Street Address Data,
+                    Usage Data,
+                    Voice Data,
+                    Payment and Purchase Data</h3>
+
+            </div>
+            <div class="grid-item">
+                <h3 style="font-size: 19px;font-weight: 400">To provide further parts of the Nasheeds Graffiti Service.
+                    For example, when we use your personal data to enable you to share a link to Nasheeds Graffiti
+                    content with
+                    someone else.</h3>
+            </div>
+            <div class="grid-item">
+                <h3 style="font-size: 19px;font-weight: 400">Legitimate Interest
+                    Our legitimate interests here include:
+                    keeping the Nasheeds Graffiti Service running and functional
+                    allowing users to access and use the Nasheeds Graffiti Service
+                </h3>
+            </div>
+            <div class="grid-item">
+                <h3 style="font-size: 19px;font-weight: 400">User Data
+                    Street Address Data,
+                    Usage Data,
+                    Voice Data,
+                    Payment and Purchase Data</h3>
+            </div>
+            <div class="grid-item">
+                <h3 style="font-size: 19px;font-weight: 400">To provide certain additional voluntary features of the
+                    Nasheeds Graffiti Service. When this is the case, we will clearly ask for your consent.</h3>
+            </div>
+            <div class="grid-item">
+                <h3 style="font-size: 19px;font-weight: 400">Consent</h3>
+            </div>
+            <div class="grid-item">
+                <h3 style="font-size: 19px;font-weight: 400">You can edit your User Data under Edit profile in your
+                    account or by contacting us.</h3>
+            </div>
+            <div class="grid-item">
+                <h3 style="font-size: 19px;font-weight: 400">Street Address Data,
+                    Usage Data,
+                    Voice Data,
+                    Payment and Purchase Data</h3>
+            </div>
+            <div class="grid-item">
+                <h3 style="font-size: 19px;font-weight: 400">Withdraw your consent to us collecting or using your
+                    personal
+                    data.</h3>
+            </div>
+            <div class="grid-item">
+                <h3 style="font-size: 19px;font-weight: 400">Street Address Data,
+                    Usage Data,
+                    Voice Data,
+                    Payment and Purchase Data</h3>
+            </div>
+            <div class="grid-item">
+                <h3 style="font-size: 19px;font-weight: 400">To diagnose, troubleshoot, and fix issues with the Nasheeds
+                    Graffiti
+                    Service.</h3>
+            </div>
+            <div class="grid-item">
+                <h3 style="font-size: 19px;font-weight: 400">Performance of a Contract</h3>
+            </div>
+            <div class="grid-item">
+                <h3 style="font-size: 19px;font-weight: 400">User Data,
+                    Usage Data</h3>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="all-h2">
+        <h2>5. Sharing your personal data</h2>
+        <p>This section sets out who receives personal data which is collected or generated through your use of the
+            Nasheeds Graffiti Service.
+
+            Publicly available information
+
+            The following personal data will always be publicly available on the Nasheeds Graffiti Service (except to
+            any user you have blocked):
+
+            <li> your profile name</li>
+            <li> your profile photo</li>
+            <li> your public playlists</li>
+            <li> other content you post on the Nasheeds Graffiti Service, and any associated titles, descriptions and
+                images</li>
+            <li> who you follow on the Nasheeds Graffiti Service</li>
+            <li> who follows you on the Nasheeds Graffiti Service</li>
+            <li> You or another user can share certain information on third party services, like social media or
+                messaging platforms, this includes:</li>
+
+        <p>your profile
+            any content you post on Nasheeds Graffiti and details about that content
+            your playlists and any associated titles, descriptions and images
+            When this sharing occurs, the third party service may store a copy of it to support their features.
+
+            Personal data you may choose to share
+
+            We will only share the following personal data with those outlined in the table below:
+
+            where you have chosen to use a Nasheeds Graffiti Service feature, or a third party application, service or
+            device, and we need to share personal data to enable this, or
+            if you otherwise grant us your permission to share the personal data. For example, you can do it by
+            selecting the appropriate setting in the Nasheeds Graffiti Service or by giving your consent</p>
+    </div>
+
+
+    <div class="all-h2">
+        <h2>6. Data retention</h2>
+        <p>We keep your personal data only as long as necessary to provide you with the Nasheeds Graffiti Service and
+            for
+            Nasheeds Graffiti's legitimate and essential business purposes, such as:
+
+            <li>maintaining the performance of the Nasheeds Graffiti Service</li>
+            <li>making data-driven business decisions about new features and offerings</li>
+            <li>complying with our legal obligations</li>
+            <li>resolving disputes</li>
+            <li>Here are some of the categories of our retention periods, and the criteria we use to determine them:
+            </li>
+
+        <p>Data retained until you remove it
+            It's your right to request that we delete certain of your personal data. See the section on 'Erasure' in
+            Section 2 'Your personal data rights and controls' for more information, and the circumstances in which we
+            can act on your request.
+            You can also delete certain personal data directly from the Nasheeds Graffiti Service: for example, you can
+            edit or
+            delete your profile picture. Where users are able to see and update the personal data themselves, we keep
+            the information for as long as the user chooses unless one of the limited purposes described below applies.
+            Data that expires after a specific period of time
+            We have set certain retention periods so that some data expires after a specific period of time. For
+            example, personal data you may input as part of search queries is generally deleted after 90 days.
+            Data retained until your Nasheeds Graffiti account is deleted
+            We keep some data until your Nasheeds Graffiti account is deleted. Examples of this include your Nasheeds
+            Graffiti username and
+            profile information. We also typically keep streaming history for the life of an account, for example, to
+            provide retrospective playlists that users enjoy and personalised recommendations that take listening habits
+            into account (for example, Your Time Capsule or Your Summer Rewind). When your Nasheeds Graffiti account is
+            deleted,
+            this category of data is deleted or de-identified.</p>
+    </div><br><br><br>
+    <!-- 😪arghhhhhhhhh!-->
+</body>
+
+</html>

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasheeds Graffiti User Guidelines - Nasheeds Graffiti</title>
+    <link rel="shortcut icon" href="ng.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+        /* Scrollbar */
+        /* Width */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: rgba(128, 128, 128, 0.475);
+            /* Dark background color */
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: crimson;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(220, 20, 60, 0.525);
+            /* Darker color on hover */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Jost", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 450;
+            font-style: normal;
+            font-size: 10px;
+        }
+
+        body {
+            background-color: pink;
+        }
+
+        header {
+            background-color: #121212;
+            color: white;
+            padding-bottom: 7px;
+        }
+
+        header img {
+            margin: 14px;
+            margin-bottom: 6px;
+            height: 69px;
+            width: 147px
+        }
+
+        nav a {
+            text-decoration: none;
+            gap: 50px;
+            list-style: none;
+            text-align: center;
+        }
+
+        .ahrefs-container {
+            list-style: none;
+            display: flex;
+            justify-content: left;
+            gap: 48px;
+            margin-left: 90px;
+
+        }
+
+        .ahrefs-container a {
+            text-decoration: none;
+            font-size: 19px;
+            color: black;
+            font-weight: 700;
+            margin-top: 20px;
+        }
+
+        .ahrefs-container a:hover {
+            color: #199446;
+        }
+
+        .ahrefs-container a:hover {
+            color: #199446;
+            transition: 0.3s ease;
+        }
+
+        .all-h1 h1 {
+            font-size: 4.2rem;
+            font-weight: 600;
+            margin-left: 40px;
+            margin-top: 60px;
+            color: #222326;
+        }
+
+        .all-h1 h1:hover {
+            text-decoration: underline 4px solid;
+            cursor: pointer;
+        }
+
+        .all-h1 p {
+            margin-left: 42px;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 18px;
+            margin-top: 19px;
+        }
+
+        .paras p {
+            margin-left: 42px;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 17px;
+            margin-top: 19px;
+            color: green;
+        }
+
+        .paras p:hover {
+            color: rgb(59, 188, 59);
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .all-h2 h2 {
+            font-size: 3.2rem;
+            font-weight: 600;
+            margin-left: 40px;
+            margin-top: 60px;
+            color: #222326;
+        }
+
+        .all-h2 p {
+            margin-right: 61px;
+            margin-left: 42px;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 17px;
+            margin-top: 19px;
+        }
+
+        .all-h2 li {
+            margin-left: 42px;
+            justify-content: flex-start;
+            font-size: 17px;
+            margin-top: 19px;
+            list-style-type: auto;
+        }
+
+
+        .left {
+            border: 2px solid red;
+            width: 35vh;
+            /* display: flex; */
+        }
+
+        .right {
+            border: 2px solid red;
+            width: 75vh;
+            /* display: flex; */
+        }
+
+        .next-to-right {
+            border: 2px solid blue;
+            width: 20vh;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin: 50px;
+            /* 3 columns */
+            /* grid-gap: 10px; */
+            /* Adjust the gap between grid items */
+        }
+
+        .grid-item {
+            padding: 20px;
+            background-color: #f0f0f0;
+            /* Background color of grid items */
+            border: 1px solid rgba(128, 128, 128, 0.1);
+            /* Border for grid items */
+            text-align: center;
+
+        }
+
+
+
+        @media only screen and (max-width: 600px) {
+
+            /* Adjustments for smaller screens */
+            header img {
+                margin: 8px;
+                margin-bottom: 4px;
+                height: auto;
+                width: 80px;
+            }
+
+            .ahrefs-container p {
+                text-align: center;
+            }
+
+            .ahrefs-container {
+                margin-left: 0;
+                display: flex;
+                justify-content: center;
+                /* Center horizontally */
+                align-items: center;
+                /* Center vertically */
+                height: 100%;
+                /* Use the full height of the parent */
+                gap: 0px;
+                font-weight: 400;
+                display: flex;
+                flex-direction: column;
+                /* Stack items vertically */
+                justify-content: center;
+                /* Center horizontally */
+                align-items: center;
+                /* Center vertically */
+                height: 100%
+                    /* Use the full height of the parent */
+            }
+
+            .all-h1 h1 {
+                font-size: 2rem;
+                margin-left: 10px;
+                margin-top: 20px;
+            }
+
+            .all-h1 p {
+                margin-left: 12px;
+                font-size: 12px;
+                margin-top: 10px;
+            }
+
+            .paras p,
+            .all-h2 h2,
+            .all-h2 p {
+                margin-left: 12px;
+                margin-right: 12px;
+                font-size: 12px;
+            }
+
+            .all-h2 h2 {
+                font-size: 1.6rem;
+                margin-left: 10px;
+                margin-top: 20px;
+            }
+
+            .grid-container {
+                grid-template-columns: repeat(1, 1fr);
+                margin: 20px;
+            }
+
+            .grid-item {
+                padding: 14px;
+                font-size: 12px;
+            }
+
+            .grid-item h3 {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<header>
+    <img src="images/ng-logo.png" alt="logo">
+</header>
+<div class="ahrefs-container">
+
+    <a style="color: black; font-weight: 400;" href="">Legal</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="t&c.html">Terms and Conditions of Use</a>
+    <a href="copyright.html">Copyright Policy</a>
+    <a href="">User Guidelines</a>
+    <a style="font-weight: 700; color: crimson;background-color: #121212; padding:0 12px; border-radius: 4px;"
+        href="index.html">BACK</a>
+
+</div>
+<div class="all-h1">
+    <h1>Nasheeds Graffiti User Guidelines</h1>
+</div>
+
+<div class="all-h2">
+    <p>Hello! Welcome to the Nasheeds Graffiti User Guidelines ("User Guidelines") which apply when using Nasheeds
+        Graffiti's websites,
+        applications and services that reference these User Guidelines (the "Services") including accessing any type of
+        material or content made available through those Services ("Content"). These User Guidelines are designed to
+        ensure the Services stay enjoyable for everyone. In addition to these User Guidelines, content must adhere to
+        the Nasheeds Graffiti Platform Rules ("Platform Rules").</p>
+
+    <p>We may update these User Guidelines and the Platform Rules from time to time - you can find the latest version on
+        our website.</p>
+
+    <p>Violating the User Guidelines or Platform Rules may result in removal of any content or material you've
+        contributed to the Services and/or termination or suspension of your account. We try to make the Services
+        broadly available to everyone, but you cannot use our Services if we've previously terminated your account on
+        any of our Services. We also prohibit attempts to circumvent prior enforcement actions, including through the
+        creation of new accounts.</p>
+
+    <p style="font-weight: 600;">The following is not permitted for any reason whatsoever in relation to the Services
+        and the material or content
+        made available through the Services, or any part thereof:</p>
+
+
+    <li>reverse-engineering, decompiling, disassembling, modifying, or creating derivative works, except where such
+        restriction is expressly prohibited by applicable law. If applicable law allows you to decompile any part of the
+        Services or Content where required in order to obtain the information necessary to create an independent program
+        that can be operated with the Services or with another program, the information you obtain from such activities
+        (a) may only be used for the foregoing objective, (b) may not be disclosed or communicated without Nasheeds
+        Graffiti's
+        prior written consent to any third party to whom it is not necessary to disclose or communicate in order to
+        achieve that objective, and (c) may not be used to create any software or service that is substantially similar
+        in its expression to any part of the Services or the Content;</li>
+    <li>copying, reproducing, redistributing, "ripping," recording, transferring, performing, framing, linking to or
+        displaying to the public, broadcasting, or making available to the public, or any other use which is not
+        expressly permitted under the Agreements or applicable law, or which otherwise infringes intellectual property
+        rights;</li>
+    <li>importing or copying any local files that you do not have the legal right to import or copy in this way;</li>
+    <li>transferring copies of cached Content from an authorized Device to any other Device via any means;</li>
+    <li>"crawling" or "scraping", whether manually or by automated means, or otherwise using any automated means
+        (including bots, scrapers, and spiders), to view, access or collect information, or using any part of the
+        Services or Content to train a machine learning or AI model or otherwise ingesting Nasheeds Graffiti Content
+        into a
+        machine learning or AI model;</li>
+    <li>selling, renting, sublicensing, leasing or other monetization except as expressly permitted under the
+        Agreements;</li>
+    <li>selling a user account or playlist, or otherwise accepting or offering to accept any compensation, financial or
+        otherwise, to influence the name of an account or playlist or the content included on an account or playlist; or
+    </li>
+    <li>artificially increasing play counts or follow counts, artificially promoting Content, or other manipulation
+        including by (i) using any bot, script or other automated process, (ii) providing or accepting any form of
+        compensation (financial or otherwise), or (iii) any other means;</li>
+    <li>circumventing any technology used by Nasheeds Graffiti, its licensors, or any third party, including any
+        territorial or
+        other content access restrictions applied by Nasheeds Graffiti or its licensors;</li>
+    <li>circumventing or blocking advertisements or creating or distributing tools designed to block advertisements;
+    </li>
+    <li>removing or altering any copyright, trademark, or other intellectual property notices (including for the purpose
+        of disguising or changing any indications of ownership or source);</li>
+    <li>deleting or altering any part of the Services or Content except as expressly permitted under the Agreements or,
+        in the case of Content made available by another user, with such user's express consent; or</li>
+    <li>providing your password to any other person or using any other person's username and password.</li>
+
+    <div class="grid-container">
+
+        <div style="background-color: lightsalmon; " class="grid-item">
+            <h3 style="font-size: 20px;font-weight: 700">
+            </h3>
+        </div>
+        <div style="background-color: lightsalmon;" class="grid-item">
+            <h3 style="font-size: 20px;font-weight: 700">Third party sources</h3>
+        </div>
+        <div style="background-color: lightsalmon; " class="grid-item">
+            <h3 style="font-size: 20px;font-weight: 700"></h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 600">Categories of third parties</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 600">Description</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 600">Data categories</h3>
+
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 400">Authentication partners.</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 400">If you register for or log into the Spotify Service using
+                another service, that service will send your information to us. This information helps create your
+                account with us.
+            </h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 400">User Data</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 400">Third party applications, services and devices you connect to
+                your Spotify account</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 400">If you connect your Spotify account to a third party
+                application, service or device, we may collect and use information from them. This collection is to make
+                the integration possible.
+            </h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 400">User Data,
+                Usage Data</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 400">Technical service partners</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 400">We’ll ask your permission before we collect your information
+                from certain third parties.</h3><br>
+            <p style="margin: 0; padding: 0; font-weight: 500; font-size: 19px;">Usage Data
+                Technical service partners We work with technical service partners that give us certain data. This
+                includes mapping IP addresses to non-precise location data (e.g., country or region, city, state).
+                This makes it possible for Spotify to provide the Spotify Service, content, and features.
+                We also work with security service providers who help us protect user accounts.</p>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 400">Payment and Purchase Data</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 400">Acquired companies</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 400">We may receive data about you from companies we acquire. This
+                is to enhance our services, products, and offerings.</h3>
+        </div>
+        <div class="grid-item">
+            <h3 style="font-size: 19px;font-weight: 400">User Data,
+                Usage Data</h3>
+        </div>
+    </div>
+
+
+    <p style="font-weight: 600;">Please respect Nasheeds Graffiti, the owners of the material and content on the
+        Services, and other users of the Services. Don't engage in any activity, post any User Content, or register or
+        use a username, which is or includes material that:</p>
+    <li>is illegal, or intended to promote or commit an illegal act of any kind, including violations of intellectual
+        property rights, privacy rights, publicity rights, or proprietary rights of Nasheeds Graffiti or a third party,
+        or would violate any agreement to which you are a party, such as, by way of example and not limitation, an
+        exclusive recording agreement or publishing agreement;</li>
+    <li>includes your password or purposely includes any other user's password or purposely includes personal data of
+        third parties or is intended to solicit such personal data;</li>
+    <li>exposes confidential or proprietary information of a third party or personal information about yourself that is
+        not intended to be broadcast to people around the world;</li>
+    <li>includes malicious content such as malware, Trojan horses, or viruses, or otherwise interferes with any user's
+        access to the Nasheeds Graffiti Service;</li>
+    <li>impersonates or misrepresents your affiliation with Nasheeds Graffiti (including, for instance, by using
+        Nasheeds Graffiti's copyrighted content, using the Nasheeds Graffiti logo without permission, or otherwise using
+        Nasheeds Graffiti trademarks in a confusing manner), another user, person, or entity, or is otherwise
+        fraudulent, false, deceptive, or misleading;</li>
+    <li>involves the transmission of unsolicited mass mailings or other forms of spam, junk mail, chain letters, or
+        similar;</li>
+    <li>unauthorized commercial or sales activities, such as advertising, promotions, contests, sweepstakes, gambling,
+        bookmaking, or pyramid schemes;</li>
+    <li>unauthorized linking to, referencing, or otherwise promoting commercial products or services, except as
+        expressly authorized by Nasheeds Graffiti;</li>
+    <li>interferes with or in any way disrupts the Nasheeds Graffiti Service, tampers with, breaches, or attempts to
+        probe, scan, or test for vulnerabilities in the Nasheeds Graffiti Service or Nasheeds Graffiti's computer
+        systems, network, usage rules, or any of Nasheeds Graffiti's security components, authentication measures or any
+        other protection measures applicable to the Nasheeds Graffiti Service, the Content or any part thereof;</li>
+    <li>conflicts with the Nasheeds Graffiti Terms and Conditions of Use or any other terms or policies applicable to
+        your use of any of the Services; or</li>
+    <li>has been removed from any of our services for a breach of our terms or policies, such as a prohibited track,
+        episode or show. This includes content being created or repurposed to reconstitute or serve the same objective
+        as previously removed Content.</li>
+</div><br><br><br>
+
+
+
+<body>
+
+</body>
+
+</html>
