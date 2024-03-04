@@ -125,6 +125,34 @@
             font-size: 17px;
             margin-top: 19px;
         }
+         #progress {
+            position: fixed;
+            bottom: 20px;
+            right: 10px;
+            height: 70px;
+            width: 70px;
+            display: none;
+            place-items: center;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+
+        }
+         html {
+            scroll-behavior: smooth;
+        }
+        #progress-value {
+            display: block;
+            height: calc(100% - 15px);
+            width: calc(100% - 15px);
+            background-color: white;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            font-size: 35px;
+            color: black;
+        }
+
 
         @media only screen and (max-width: 600px) {
             header img {
@@ -386,19 +414,11 @@
         </div>
     </div>
 
+<div id="progress">
+        <span id="progress-value">&#x1F815</span>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="js/script.js"></script>
 
 
 
